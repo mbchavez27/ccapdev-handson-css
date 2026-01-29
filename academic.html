@@ -1,67 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Academic Life</title>
+    <link rel="stylesheet" href="academic.css" />
   </head>
   <body>
-    <div align="left">
+    <div class="back-link">
       <a href="./index.html">Back to Home</a>
     </div>
-    <header align="center">
-      <h1>My Academic Life Page</h1>
+
+    <header class="header">
+      <h1 class="page-title">My Academic Life Page</h1>
     </header>
-    <div align="left">
-      <h2>Details</h2>
+
+    <section class="details">
+      <h2 class="section-title">Details</h2>
       <p><b>ID #:</b> 12328146</p>
       <p><b>Course:</b> BS Computer Science Major in Software Technology</p>
-    </div>
-    <div align="center">
-      <table border="black" cellspacing="0" cellpadding="10">
-        <tr>
-          <th>Schedule</th>
-          <th>Class</th>
-          <th>Unit</th>
-        </tr>
-        <tr>
-          <td>M/H 915-1045</td>
-          <td>CCAPDEV</td>
-          <td>3.0</td>
-        </tr>
-        <tr>
-          <td>M/H 1245-0215</td>
-          <td>STALGCM</td>
-          <td>3.0</td>
-        </tr>
-        <tr>
-          <td>M/H 0415-0545</td>
-          <td>GEETHIC</td>
-          <td>3.0</td>
-        </tr>
-        <tr>
-          <td>M/H 0600-0800</td>
-          <td>PEDFOUR 3x3</td>
-          <td>2.0</td>
-        </tr>
-        <tr>
-          <td>T/F 1100-1230</td>
-          <td>CSARCH1</td>
-          <td>3.0</td>
-        </tr>
-        <tr>
-          <td>T/F 1245-0215</td>
-          <td>CSMATH2</td>
-          <td>3.0</td>
-        </tr>
-        <tr>
-          <th colspan="2">Total Units for this Term:</th>
-          <td colspan="1">17.0</td>
-        </tr>
-        <caption>
+    </section>
+
+    <section class="schedule">
+      <table class="schedule-table">
+        <caption class="table-caption">
           <h3>Classes This Academic Year 2025-2026 Term 2</h3>
         </caption>
+        <thead>
+          <tr>
+            <th>Schedule</th>
+            <th>Class</th>
+            <th>Unit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>M/H 915-1045</td>
+            <td>CCAPDEV</td>
+            <td>3.0</td>
+          </tr>
+          <tr>
+            <td>M/H 1245-0215</td>
+            <td>STALGCM</td>
+            <td>3.0</td>
+          </tr>
+          <tr>
+            <td>M/H 0415-0545</td>
+            <td>GEETHIC</td>
+            <td>3.0</td>
+          </tr>
+          <tr>
+            <td>M/H 0600-0800</td>
+            <td>PEDFOUR 3x3</td>
+            <td>2.0</td>
+          </tr>
+          <tr>
+            <td>T/F 1100-1230</td>
+            <td>CSARCH1</td>
+            <td>3.0</td>
+          </tr>
+          <tr>
+            <td>T/F 1245-0215</td>
+            <td>CSMATH2</td>
+            <td>3.0</td>
+          </tr>
+          <tr class="total-units">
+            <th colspan="2">Total Units for this Term:</th>
+            <td>17.0</td>
+          </tr>
+        </tbody>
       </table>
-    </div>
+    </section>
   </body>
 </html>

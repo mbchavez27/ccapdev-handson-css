@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #222;
+}
+
+.back-link {
+  margin: 20px;
+}
+
+.back-link a {
+  color: #c4161c;
+  text-decoration: none;
+  font-weight: bold;
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.back-link a:hover {
+  color: #8f0f13;
+  transform: translateX(5px);
+}
+
+.header {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.header .page-title {
+  font-size: 36px;
+  color: #c4161c;
+  margin: 0;
+}
+
+.details {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.details .section-title {
+  font-size: 28px;
+  color: #c4161c;
+  margin-bottom: 15px;
+}
+
+.details p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.schedule {
+  max-width: 900px;
+  margin: 30px auto 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  overflow-x: auto;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.schedule-table th,
+.schedule-table td {
+  border: 2px solid #c4161c;
+  padding: 12px 15px;
+  font-size: 16px;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.schedule-table th {
+  background-color: #c4161c;
+  color: white;
+  font-size: 18px;
+}
+
+.schedule-table tbody tr:hover {
+  background-color: #ffe5e5;
+  transform: scale(1.02);
+}
+
+.total-units th,
+.total-units td {
+  font-weight: bold;
+  background-color: #f0f0f0;
+  color: #000000;
+}
+
+.table-caption h3 {
+  color: #c4161c;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
