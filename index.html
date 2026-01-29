@@ -1,100 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@mbchavezz website</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
+
   <body>
-    <header>
-      <div align="left">
-        <h1>@mbchavezz biopage website</h1>
-      </div>
-      <div align="center">
-        <h2>Hello, my name is Max Chavez</h2>
-      </div>
+    <header class="header">
+      <h1 class="site-title">@mbchavezz biopage website</h1>
+      <h2 class="intro-text">Hello, my name is Max Chavez</h2>
     </header>
-    <div align="center">
-      <h3>Table of Contents</h3>
-    </div>
-    <ol type="I">
-      <li><a href="#nutshell">Me in a Nutshell</a></li>
-      <li><a href="#interests">Lists of Interests</a></li>
-      <li><a href="#favorite_video">Favorite Video</a></li>
-      <li><a href="#favorite_audio">Favorite Audio</a></li>
-      <li><a href="./academic.html">Academic Life</a></li>
-      <li><a href="./contact.html">Contact Me</a></li>
-    </ol>
-    <section id="nutshell">
-      <div align="center">
-        <img src="./max.jpeg" alt="my image" width="200" />
-        <h1>Max Chavez</h1>
-        <p>
+
+    <section class="toc">
+      <h3 class="section-title">Table of Contents</h3>
+      <ol class="toc-list" type="I">
+        <li><a href="#about">Me in a Nutshell</a></li>
+        <li><a href="#interests">Lists of Interests</a></li>
+        <li><a href="#favorite-video">Favorite Video</a></li>
+        <li><a href="#favorite-audio">Favorite Audio</a></li>
+        <li><a href="./academic.html">Academic Life</a></li>
+        <li><a href="./contact.html">Contact Me</a></li>
+      </ol>
+    </section>
+
+    <section id="about" class="about">
+      <div class="profile">
+        <img src="./max.jpeg" alt="My image" class="profile-img" width="200" />
+        <h1 class="name">Max Chavez</h1>
+        <p class="role">
           <i>
             Lead Frontend Engineer @lscs<br />
             Aspiring Machine Learning Engineer
           </i>
         </p>
-        <br />
-        <br />
-        <br />
       </div>
-      <div align="center">
-        <table cellspacing="10" cellpadding="30">
-          <tr>
-            <td>
-              <section id="hobbies">
-                <b>
-                  <p align="center">Hobbies:</p>
-                </b>
-                <ul>
-                  <li>Coding</li>
-                  <li>Basketball</li>
-                  <li>Golf</li>
-                  <li>Gym</li>
-                </ul>
-              </section>
-            </td>
-            <td>
-              <section id="interests">
-                <b>
-                  <p align="center">Interests:</p>
-                </b>
-                <ul>
-                  <li>Machine Learning</li>
-                  <li>NLP</li>
-                  <li>Web Development</li>
-                  <li>Listening to Bigbang, Chaeyoung, and MCR</li>
-                </ul>
-              </section>
-            </td>
-          </tr>
-        </table>
-        <br />
-        <br />
-        <br />
+
+      <div class="info-cards">
+        <div class="card" id="hobbies">
+          <p class="card-title">Hobbies</p>
+          <ul>
+            <li>Coding</li>
+            <li>Basketball</li>
+            <li>Golf</li>
+            <li>Gym</li>
+          </ul>
+        </div>
+
+        <div class="card" id="interests">
+          <p class="card-title">Interests</p>
+          <ul>
+            <li>Machine Learning</li>
+            <li>NLP</li>
+            <li>Web Development</li>
+            <li>Listening to Bigbang, Chaeyoung, and MCR</li>
+          </ul>
+        </div>
       </div>
     </section>
-    <div align="center">
-      <section id="favorite_audio">
-        <h2>My Current Favorite Song</h2>
-        <iframe
-          data-testid="embed-iframe"
-          src="https://open.spotify.com/embed/track/5doooVlMVRZztQbySqARMI?utm_source=generator"
-          width="40%"
-          height="150"
-          frameborder="0"
-          allowfullscreen=""
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy"
-        ></iframe>
-      </section>
-      <section id="favorite_video">
-        <h2>My Current Favorite Video</h2>
-        <video width="640" controls>
-          <source src="./jungkook.mp4" type="video/mp4" />
-        </video>
-      </section>
-    </div>
+
+    <section id="favorite-audio" class="media">
+      <h2 class="media-title">My Current Favorite Song</h2>
+      <iframe
+        src="https://open.spotify.com/embed/track/5doooVlMVRZztQbySqARMI"
+        width="40%"
+        height="150"
+        allow="
+          autoplay;
+          clipboard-write;
+          encrypted-media;
+          fullscreen;
+          picture-in-picture;
+        "
+        loading="lazy"
+      ></iframe>
+    </section>
+
+    <section id="favorite-video" class="media">
+      <h2 class="media-title">My Current Favorite Video</h2>
+      <video width="640" controls>
+        <source src="./jungkook.mp4" type="video/mp4" />
+      </video>
+    </section>
   </body>
 </html>
